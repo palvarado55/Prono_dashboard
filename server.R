@@ -18,7 +18,7 @@ shinyServer(function(input, output, session) {
   })
   
   # "Cargar" archivo con la información del mapa
-  load("C:/E/Shiny/12_app_mapa_CR/gadf.Rdata") 
+  load("C:/E/Shiny/Mapa_CR/gadf.Rdata") 
   
   lg = -84.10  # longitud  San José E(+), O(-)
   lt =   9.93  # latitud   San José N(+), S(-)
